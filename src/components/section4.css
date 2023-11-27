@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.container4{
+    background: url("images/section_4_img.jpg");
+    margin: 60px;
+    padding: 150px 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: 80px;
+    height: 250px;
+    color: white;
+    text-transform: capitalize;
+}
+.container4 .block{
+    width: 60%;
+}
+.container4 p{
+    margin-bottom: 20px;
+}
+.container4 #p01{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.container4 #p02{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.container4 #p03{
+    font-weight: 500;
+}
+.container4 #p04{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container4 button{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    font-weight: 550;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    transition: all 0.4s;
+}
+.container4 button:hover{
+    background-color: black;
+    color: white ;
+}

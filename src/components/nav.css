@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(54, 53, 53, 0.176);
+    z-index: 3;
+}
+ul{
+    height: 100px;
+}
+ul li{
+    display: inline-block;
+}
+.img{
+    width: 130px;
+    height: 50px;
+    vertical-align: middle;
+    margin: 20px;
+}
+.listItems{
+    margin-left:30px;
+    padding: 23px;
+    font-size: 15px;
+    color: white ;
+    vertical-align: middle  ;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+}
+.listItems:hover{
+    color: rgba(0, 0, 0, 0.167);
+}
